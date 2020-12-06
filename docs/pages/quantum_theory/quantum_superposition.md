@@ -1,0 +1,9 @@
+# Fundamental Quantum Theory
+## Superposition
+
+- One of the properties that sets a qubit apart from a classical bit is that it can be in superposition. Superposition is one of the fundamental principles of quantum mechanics. In classical physics, a wave describing a musical tone can be seen as several waves with different frequencies that are added together, superposed. Similarly, a quantum state in superposition can be seen as a linear combination of other distinct quantum states. This quantum state in superposition forms a new valid quantum state.
+
+- Qubits can be in a superposition of both the basis states $\left\lvert 0 \right\rangle$ and $\left\lvert 1 \right\rangle$. When a qubit is measured (to be more precise: only observables can be measured), the qubit will collapse to one of its eigenstates and the measured value will reflect that state. For example, when a qubit is in a superposition state of equal weights, a measurement will make it collapse to one of its two basis states 
+$\left\lvert 0 \right\rangle$ and $\left\lvert 1 \right\rangle$ with an equal probability of 50%. $\left\lvert 0 \right\rangle\$ is the state that when measured, and therefore collapsed, will always give the result 0. Similarly, $\left\lvert 1 \right\rangle$ will always convert to 1.
+
+- Quantum superposition is fundamentally different from superposing classical waves. A quantum computer consisting of n*n* qubits can exist in a superposition of $2^n$ states: from $\left\lvert 000... 0 \right\rangle$ to $\left\lvert 111... 1 \right\rangle$. In contrast, playing n musical sounds with all different frequencies, can only give a superposition of n*n* frequencies. Adding classical waves scales linear, where the superposition of quantum states is exponential.

@@ -1,0 +1,10 @@
+# Fundamental Quantum Theory
+## Entanglement
+
+- One of the other counter-intuitive phenomena in quantum physics is entanglement. A pair or group of particles is entangled when the quantum state of each particle cannot be described independently of the quantum state of the other particle(s). The quantum state of the system as a whole can be described; it is in a definite state, although the parts of the system are not.
+
+- When two qubits are entangled there exists a special connection between them. The entanglement will become clear from the results of measurements. The outcome of the measurements on the individual qubits could be 0 or 1. However, the outcome of the measurement on one qubit will always be correlated to the measurement on the other qubit. This is always the case, even if the particles are separated from each other by a large distance. Examples of such states are the Bell states.
+
+- For example, two particles are created in such a way that the total spin of the system is zero. If the spin of one of the particles is measured on a certain axis and found to be counterclockwise, then it is guaranteed that a measurement of the spin of the other particle (along the same axis) will show the spin to be clockwise. This seems strange, because it appears that one of the entangled particles “feels” that a measurement is performed on the other entangled particle and “knows” what the outcome should be, but this is not the case. This happens, without any information exchange between the entangled particles. They could even be billions of miles away from each other and this entanglement would still be present.
+
+- A common misunderstanding is that entanglement could be used to instantaneously send information from one point to another. This is not possible because although it is possible to know the state of the other particle when measuring one, the measurement results of the individual particles are random. There is no way to predetermine the individual result, therefore it is not possible to send a message in this way.
