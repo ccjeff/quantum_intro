@@ -2,7 +2,8 @@
 *.mov
 *.jpg
 *.gif
-
+.DS_Store
+docs/.DS_Store
 # Logs
 logs
 *.log

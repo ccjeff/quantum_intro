@@ -23,27 +23,23 @@ module.exports = {
             })
         }
     },
-    title: 'Quantum Computing',
+    title: '',
     description: 'Just playing around',
     themeConfig: {
             logo: '/cuhksz_logo.png',  //网页顶端导航栏左上角的图标
             //顶部导航栏
-            nav: [           
-                //格式一：直接跳转，'/'为不添加路由，跳转至首页
-                { text: '首页', link: '/' },    
-
-                //格式二：添加下拉菜单，link指向的文件路径
+            nav: [     
+                { text: 'Motivation', link: '/pages/motivation/Motivation.md' },     
                 {
                     text: 'Quantum Theory',   
                     ariaLabel: 'quantum_theory',   //用于识别的label
-                    items: [
-                        { text: 'Qubit', link: '/pages/quantum_theory/qubit.md' },  
+                    items: [ 
                         { text: 'Quantum Entanglement', link: '/pages/quantum_theory/quantum_entanglement.md' },
                         { text: 'Quantum Superposition', link: '/pages/quantum_theory/quantum_superposition.md' },
                     ]
                 },
-                { text: 'Quantum Computer', link: '/pages/quantum_computer/quantum_computer.md' },
-                //格式二：添加下拉菜单，link指向的文件路径
+                { text: 'Qubit', link: '/pages/qubit/qubit.md' },     
+                { text: 'Quantum Gate', link: '/pages/quantum_gate/Quantum_Gate.md' },
                 {
                     text: 'Quantum Algorithm',   
                     ariaLabel: 'quantum_algorithm',   //用于识别的label
@@ -51,50 +47,102 @@ module.exports = {
                         { text: 'HHL', link: '/pages/quantum_algorithm/HHL.md' },  
                         { text: 'Shor', link: '/pages/quantum_algorithm/Shor.md' },
                         { text: 'Grove', link: '/pages/quantum_algorithm/Grove.md' },
+                        { text: 'Application', link: '/pages/quantum_algorithm/Application.md' },
                     ]
                 },
-                //格式三：跳转至外部网页，需http/https前缀
+                { text: 'Quantum Supremacy', link: '/pages/quantum_supremacy/Supremacy.md' }, 
+                { text: 'Quantum Computer', link: '/pages/quantum_computer/quantum_computer.md' }, 
+                { text: 'Limitation', link: '/pages/limitation/Limitation.md' }, 
                 { text: 'Github', link: 'https://github.com/ccjeff' },
             ],
             
             //侧边导航栏：会根据当前的文件路径是否匹配侧边栏数据，自动显示/隐藏
             sidebar: {
-                '/pages/quantum_theory/':[         
+                '/pages/limitation/':[         
                     {
-                        title: 'Quantum Theory', 
+                        title: 'Quantum Limitation', 
                         collapsable: false, // false为默认展开菜单, 默认值true是折叠,
                         sidebarDepth: 1,    //  设置侧边导航自动提取markdown文件标题的层级，默认1为h2层级
                         children: [
-                            ['qubit.md', 'Qubit'], 
+                            ['Limitation.md', 'Quantum Limitation']
+                        ]
+                    },
+                ],
+                '/pages/motivation/':[         
+                    {
+                        title: 'Motivation', 
+                        collapsable: false, 
+                        sidebarDepth: 1,    
+                        children: [
+                            ['Motivation.md', 'Motivation']
+                        ]
+                    },
+                ],
+                '/pages/quantum_theory/':[         
+                    {
+                        title: 'Quantum Theory', 
+                        collapsable: false, 
+                        sidebarDepth: 1,    
+                        children: [
                             ['quantum_entanglement.md', 'Quantum Entanglement'],
                             ['quantum_superposition.md', 'Quantum Superposition']
+                        ]
+                    },
+                ],
+                '/pages/quantum_gate/':[         
+                    {
+                        title: 'Quantum Gate', 
+                        collapsable: false, 
+                        sidebarDepth: 1,    
+                        children: [
+                            ['Quantum_Gate.md', 'Quantum Gate'],
+                        ]
+                    },
+                ],
+                '/pages/quantum_supremacy/':[         
+                    {
+                        title: 'Quantum Supremacy', 
+                        collapsable: false, 
+                        sidebarDepth: 1,    
+                        children: [
+                            ['Supremacy.md', 'Quantum Supremacy'],
                         ]
                     },
                 ],
                 '/pages/quantum_computer/':[         
                     {
                         title: 'Quantum Computer', 
-                        collapsable: false, // false为默认展开菜单, 默认值true是折叠,
-                        sidebarDepth: 1,    //  设置侧边导航自动提取markdown文件标题的层级，默认1为h2层级
+                        collapsable: false, 
+                        sidebarDepth: 1,    
                         children: [
                             ['quantum_computer.md', 'Quantum Computer']
+                        ]
+                    },
+                ],
+                '/pages/qubit/':[         
+                    {
+                        title: 'Qubit', 
+                        collapsable: false, 
+                        sidebarDepth: 1,    
+                        children: [
+                            ['qubit.md', 'Qubit']
                         ]
                     },
                 ],
                 '/pages/quantum_algorithm/':[         
                     {
                         title: 'Quantum Algorithm', 
-                        collapsable: false, // false为默认展开菜单, 默认值true是折叠,
-                        sidebarDepth: 1,    //  设置侧边导航自动提取markdown文件标题的层级，默认1为h2层级
+                        collapsable: false, 
+                        sidebarDepth: 1,    
                         children: [
                             ['Grove.md', 'Grove Algorithm'], 
                             ['HHL.md', 'HHL'],
-                            ['Shor.md', 'Shor Algorithm']
+                            ['Shor.md', 'Shor Algorithm'],
+                            ['Application.md', 'Application']
                         ]
                     },
                 ],
                 
-                //...可添加多个不同的侧边栏，不同页面会根据路径显示不同的侧边栏
             }
         }
     
