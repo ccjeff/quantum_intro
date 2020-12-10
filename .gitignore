@@ -2,6 +2,7 @@
 *.mov
 *.jpg
 *.gif
+*.mp3
 .DS_Store
 docs/.DS_Store
 # Logs
