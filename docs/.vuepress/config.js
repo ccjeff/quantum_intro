@@ -41,7 +41,7 @@ module.exports = {
             logo: '/cuhksz_logo.png',  //网页顶端导航栏左上角的图标
             //顶部导航栏
             nav: [     
-                { text: 'Motivation', link: '/pages/motivation/Motivation.md' },     
+                { text: 'Motivation', link: '/pages/motivation/Motivation.md' },    
                 {
                     text: 'Quantum Theory',   
                     ariaLabel: 'quantum_theory',   //用于识别的label
@@ -65,6 +65,7 @@ module.exports = {
                 { text: 'Quantum Supremacy', link: '/pages/quantum_supremacy/Supremacy.md' }, 
                 { text: 'Quantum Computer', link: '/pages/quantum_computer/quantum_computer.md' }, 
                 { text: 'Limitation', link: '/pages/limitation/Limitation.md' }, 
+                { text: 'Quiz', link: '/pages/quiz/quiz.md' },  
                 { text: 'Github', link: 'https://github.com/ccjeff' },
             ],
             
