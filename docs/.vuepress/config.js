@@ -11,6 +11,18 @@ module.exports = {
             },
           },
         ],
+        [
+            "music-bar",
+            {
+              playList: [],
+              platform: [
+                {
+                  name: "music.163.com",
+                  playListIDs: ["2758625950"]
+                }
+              ]
+            }
+        ],
     ],
     markdown: {
         lineNumbers: false,

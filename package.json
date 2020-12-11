@@ -25,6 +25,7 @@
     "markdown-it-html5-embed": "^1.0.0",
     "markdown-it-katex": "^2.0.3",
     "vue-audio-better": "^3.0.1",
-    "vue-survey-builder": "^0.2.0"
+    "vue-survey-builder": "^0.2.0",
+    "vuepress-plugin-music-bar": "^3.7.6"
   }
 }
