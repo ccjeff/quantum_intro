@@ -146,6 +146,17 @@ module.exports = {
                         ]
                     },
                 ],
+                '/pages/video_lecture/':[
+                    {
+                        title: 'Video Lectures',
+                        collapsable: false,
+                        sidebarDepth: 1,
+                        children:[
+                            ['lecture1.md', 'Lecture 1 Double Slit Experiment'],
+                            ['lecture2.md', 'Lecture 2 Qubits']
+                        ]
+                    }
+                ]
                 
             }
         }
