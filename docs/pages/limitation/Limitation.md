@@ -2,8 +2,6 @@
 ---
 ## Susceptibility to Error
 
-<App></App>
-
 <font size = 4> Quantum computers are much more susceptible to errors than classical computers due to decoherence and noise. The threshold theorem states that a noisy quantum computer can use quantum error-correcting codes to simulate a noiseless quantum computer assuming the error introduced in each computer cycle is less than some number. Numerical simulations suggest that that number may be as high as 3%. However, it is not yet definitively known how the resources needed for error correction will scale with the number of qubits. Skeptics point to the unknown behavior of noise in scaled-up quantum systems as a potential roadblock for successfully implementing quantum computing and demonstrating quantum supremacy.</font> 
 
 ## Error correction

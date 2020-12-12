@@ -10,7 +10,7 @@
 
 <font size = 4 > Multiple additional applications for qubit systems that are not related to computing or simulation also exist and are active areas of research. Two of the most prominent areas are (1) quantum sensing and metrology, which leverage the extreme sensitivity of qubits to the environment to realize sensing beyond the classical shot noise limit, and (2) quantum networks and communications, which may lead to revolutionary ways to share information. </font> 
 
-<img :src="$withBase('/qbit.gif')" alt="qbit">!
+<img :src="$withBase('/qbit.jpg')" alt="qbit">!
 
 ## Classic Computer and Quantum Computer  
 

@@ -16,7 +16,7 @@
 
 <font size= 4>According to Google, this chip may be the platform for creating a quantum computer to achieve this. "We are moderately optimistic that Bristlecone can achieve quantum superiority," said Julian Kelley of the Google team on the company's blog.</font>
 
-<img :src="$withBase('/s2.png')" alt="s2">
+<img :src="$withBase('/s2.jpg')" alt="s2">
 
 ## Jiuzhang
 <font size = 4> In collaboration with the National Center for Concurrent Computer Engineering and Technology, Shanghai Institute of Microsystems, the research team composed by Jiawei Pan, Chaoyang Lu of the University of Science and Technology of China, has constructed Jiuzhang of the 76-photon quantum computing prototype, realizing the fast solution of the Gaussian Boson Sampling task with practical prospect. According to the theory, the quantum computing system of dealing with the Gaussian Boson Sampling one hundred trillion times faster than the fastest supercomputer. In effect, it is 10 billion times faster than the 53 superconducting bit-quantum computing protypes the Google unvelied last year.</font>
@@ -27,4 +27,4 @@
 
 <font size = 4> It is worth mentioning that the success of Jiuzhang is not only a milestone in the realization of the quantum supremacy, but also provides a potential prospect for the second step to solve a number of problems of great practical value that supercomputers are not capable. The Gaussian Boson Sampling algorithm completed in Jiuzhang has potential applications in graphy theory, machine learning, quantum chemistry and other fields. Scientists assume, therefore, the answer to the question of the classic algorithm simulation up difficult if develop a GBS quantum computers, as a special-purpose photon platform, let the molecular vibration, machine learning these complex process, in the form of bose sampling speed, can very well to the application of study is very important in the real world. </font>
 
-<img :src="$withBase('/s4.png')" alt="s4">
+<img :src="$withBase('/s4.jpg')" alt="s4">
